@@ -3,6 +3,6 @@ function factorial(a){
     else
     return a * factorial(a-1);
 }
-let num=6;
+let a=3;
 let result=factorial(a);
-console.log("The factorial of " + num + " is " + result);
+console.log("The factorial of " + a + " is " + result);
