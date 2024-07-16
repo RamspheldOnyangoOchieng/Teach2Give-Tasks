@@ -1,22 +1,22 @@
 //1. Design a function that reverses the digits of an integer. For example, 50should become 5 and -12 should become -21.
-function reverseNumber(num){
+function reverseNumber(digit){
     
 // lets work with only ablsolute numbers only
-num = Math.abs(num);
+digit = Math.abs(digit);
 
 //if the input is between 0 and 9 return the same numeber
-    if (num>=0 && num<9){
-        return num;
+    if (digit>=0 && digit<9){
+        return digit;
     }
 
     //Now get the number as we enjoy our code
     let reversedNum = 0;
 
-    while(num!== 0){
-        reversedNum = reversedNum * 10 + num%10;
-        num = Math.floor(num / 10);
+    while(digit!== 0){
+        reversedNum = reversedNum * 10 + digit%10;
+        digit = Math.floor(digit / 10);
     }
     return reversedNum;
 }
-let num=356;
-console.log(reverseNumber(num));
+let originalNo=356;
+console.log(reverseNumber(originalNo));
