@@ -1,7 +1,7 @@
 function factorial(myNum){
     if(myNum === 0 || myNum === 1) return 1;
     else
-    return myNum * factorial(a-1);
+    return myNum * factorial(myNum-1);
 }
 let myNum= 9;
 let result=factorial(myNum);
