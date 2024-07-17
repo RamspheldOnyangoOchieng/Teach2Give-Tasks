@@ -1,6 +1,6 @@
 # Teach2Give-Tasks
 
-#TEACH2GIVE TECHNICAL TEST
+# TEACH2GIVE TECHNICAL TEST
 
 Please adhere to the following guidelines to progress to the next phase of the
 interview:
@@ -34,7 +34,7 @@ and demonstrate your ability to provide clear and effective solutions. Thank
 
 you ,and we look forward to reviewing your submission.
 
-#QUESTIONS
+# QUESTIONS
 
 1. Design a function that reverses the digits of an integer. For example, 50
 
